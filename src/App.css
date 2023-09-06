@@ -1,0 +1,54 @@
+.Buttonn{
+    padding:2%;
+    color: rgb(255, 177, 103);
+    font-size: xx-large;
+}
+.Slidee{
+    width: 100% ;
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+}
+.arrow{
+    font-size: 5em;
+    background: transparent;
+    border: none;
+    padding: 0;
+    color: rgb(212, 221, 248);
+    cursor: pointer;
+    transition: all 1s ease;
+    
+}
+.dot {
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgb(76, 84, 135);
+    border-radius:50%;
+    display: inline-block;
+    margin:0 12px ;
+    cursor: pointer;
+    background-color: rgb(212, 221, 248);
+    transition: all 1s ease;
+
+}   
+.dot:hover,
+.dot.active{
+    background-color: rgb(7, 65, 119);
+}
+.Dot{
+    margin-left: 47%;
+    margin-top: 50px;
+}
+.arrow:hover{
+    color: rgb(35, 35, 77);
+}
+.RT{
+    font-size: 40px;
+    color:rgb(0, 0, 0);
+    text-shadow: 10px 10px 10px rgb(0, 0, 0) ;
+
+
+}
